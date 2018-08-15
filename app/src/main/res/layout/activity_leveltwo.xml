@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:background="#49f206"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.aigamebox.Leveltwo">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/leveltwo"
+        android:layout_marginBottom="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+android:textColor="#000"
+android:textStyle="bold"
+        android:background="#0c1bf0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:text="Play"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+</RelativeLayout>

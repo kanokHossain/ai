@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.aigamebox.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#05fb32"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="HumaN CHoicE" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:background="#8ef114"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" CompuTeR ChoicE"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/rockk"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/paper"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_toLeftOf="@+id/sissors"
+        android:layout_toStartOf="@+id/sissors" />
+
+    <Button
+        android:id="@+id/rock"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#2bf510"
+        android:text="Rock"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/paper"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#2bf510"
+        android:fontFamily="cursive"
+        android:text="Paper"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:id="@+id/sissors"
+        android:fontFamily="cursive"
+        android:background="#2bf510"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Sissors"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:textSize="15dp"
+        android:textColor="#4ef905"
+
+        android:textAlignment="center"
+        android:background="#3406ee"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:text=" HumaN 0 \n\nComputeR 0"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+</RelativeLayout>
